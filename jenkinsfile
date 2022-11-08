@@ -6,7 +6,7 @@ pipeline{
           git 'https://github.com/gauravsinghrepo/myfirstrepo.git'
         }
     }
-    stage('unit test'){
+    stage('unit testing'){
         steps{
           sh 'mvn test'
         }
